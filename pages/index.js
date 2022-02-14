@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <Grid container>
         <Grid item md={3} sx={{ background: '#f44336', height: '100vh' }}>
-          <Navbar />
+          <Navbar title="header" />
         </Grid>
         <Grid item md={9} sx={{ border: '1px solid red', height: '100vh', overflowY: 'scroll', padding: " 10px 30px" }}>
           {/* please insert code here */}
