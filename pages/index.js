@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Navbar from '../components/Navbar';
+import Services from '../components/Services';
 
 export default function Home() {
   return (
@@ -13,13 +14,10 @@ export default function Home() {
       </Head>
       <Grid container>
         <Grid item md={3} sm={3} xs={12} sx={{ background: '#f44336', height: 'auto' }}>
-          <Navbar title="header" />
+          <Navbar  />
         </Grid>
         <Grid item md={9} sm={9} xs={12} sx={{ height: '100vh', overflowY: 'scroll', padding: " 10px 30px" }}>
-          {/* please insert code here */}
-          <h1>insert code here</h1>
-          {/* delete this box bellow */}
-          <Box sx={{ height: "120vh" }}>test-block</Box>   
+            <Services/>  
         </Grid>
 
       </Grid>
