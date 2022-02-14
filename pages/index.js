@@ -12,15 +12,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Grid container>
-  <Grid item md={3} sx={{background:'#f44336',height:'100vh'}}>
-         <Navbar/>
-  </Grid>
-  <Grid item md={9} sx={{border:'1px solid red',height:'100vh',overflowY:'scroll',padding:" 10px 30px"}}>
-         {/* please insert code here */}
-         <h1>insert code here</h1>
-  </Grid>
-   
-</Grid>
-    </Box> 
+        <Grid item md={3} sx={{ background: '#f44336', height: '100vh' }}>
+          <Navbar />
+        </Grid>
+        <Grid item md={9} sx={{ border: '1px solid red', height: '100vh', overflowY: 'scroll', padding: " 10px 30px" }}>
+          {/* please insert code here */}
+          <h1>insert code here</h1>
+        </Grid>
+
+      </Grid>
+    </Box>
   )
 }
