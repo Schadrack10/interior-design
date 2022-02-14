@@ -5,7 +5,7 @@ import Box from "@mui/material/Box";
 
 const Services = () => {
   return (
-    <Box>
+    <Box sx={{margin:"20px 0"}}>
       <SectionTitle title="services" />
       <Box sx={{margin:"20px 0"}}>
       

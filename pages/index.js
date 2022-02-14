@@ -3,6 +3,7 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Navbar from '../components/Navbar';
 import Services from '../components/Services';
+import Packages from '../components/Packages';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         </Grid>
         <Grid item md={9} sm={9} xs={12} sx={{ height: '100vh', overflowY: 'scroll', padding: " 10px 30px" }}>
             <Services/>  
+            <Packages/>
         </Grid>
 
       </Grid>
