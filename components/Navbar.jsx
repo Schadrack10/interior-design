@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav
       style={{
         color: "white",
-        padding: "30px 24x",
+        padding: "30px 24px",
         fontFamily: "poppins,sans-serif",
         height: "100%",
         width: "100%",
