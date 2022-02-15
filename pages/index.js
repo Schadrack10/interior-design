@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Navbar from '../components/Navbar';
+import HomeSection from '../components/Home';
 import Services from '../components/Services';
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
           <Navbar  />
         </Grid>
         <Grid item md={9} sm={9} xs={12} sx={{ height: '100vh', overflowY: 'scroll', padding: " 10px 30px" }}>
+            <HomeSection />
             <Services/>  
         </Grid>
 
