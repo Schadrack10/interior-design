@@ -4,6 +4,7 @@ import Grid from '@mui/material/Grid';
 import Navbar from '../components/Navbar';
 import HomeSection from '../components/Home';
 import Services from '../components/Services';
+import Showcase from '../components/Showcase';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         </Grid>
         <Grid item md={9} sm={9} xs={12} sx={{ height: '100vh', overflowY: 'scroll', padding: " 10px 30px" }}>
             <HomeSection />
+            <Showcase />
             <Services/>  
         </Grid>
 
