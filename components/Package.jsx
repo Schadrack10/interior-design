@@ -95,9 +95,10 @@ const Packages = () => {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
+                flexDirection:"column"
               }}
             >
-              $ 199 <br />
+              <h4 style={{margin:"5px 0",fontSize:"18px"}}>$ 199 </h4>
               per room
             </Box>
             <Box
@@ -190,9 +191,10 @@ const Packages = () => {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
+                flexDirection:"column"
               }}
             >
-              $ 199 <br />
+              <h4 style={{margin:"5px 0",fontSize:"18px"}}>$ 199 </h4>
               per room
             </Box>
             <Box
