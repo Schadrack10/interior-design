@@ -6,6 +6,7 @@ import HomeSection from '../components/Home';
 import Services from '../components/Services';
 import Showcase from '../components/Showcase';
 import Designers from '../components/Designers';
+import Packages from '../components/Package';
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
             <Showcase />
             <Services/>  
             <Designers />
+            <Packages/>
         </Grid>
 
       </Grid>
