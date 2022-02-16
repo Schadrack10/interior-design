@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import HomeSection from '../components/Home';
 import Services from '../components/Services';
 import Showcase from '../components/Showcase';
+import Designers from '../components/Designers';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
             <HomeSection />
             <Showcase />
             <Services/>  
+            <Designers />
         </Grid>
 
       </Grid>
