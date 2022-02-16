@@ -1,11 +1,13 @@
-import Head from 'next/head'
-import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
-import Navbar from '../components/Navbar';
-import HomeSection from '../components/Home';
-import Services from '../components/Services';
-import Showcase from '../components/Showcase';
-import Designers from '../components/Designers';
+import Head from "next/head";
+import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import Navbar from "../components/Navbar";
+import HomeSection from "../components/Home";
+import Services from "../components/Services";
+import Showcase from "../components/Showcase";
+import Designers from "../components/Designers";
+import Contact from "../components/Contact";
+import FooterContent from "../components/FooterContent";
 
 export default function Home() {
   return (
@@ -16,17 +18,32 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Grid container>
-        <Grid item md={3} sm={3} xs={12} sx={{ background: '#f44336', height: 'auto' }}>
-          <Navbar  />
+        <Grid
+          item
+          md={3}
+          sm={3}
+          xs={12}
+          sx={{ background: "#f44336", height: "auto" }}
+        >
+          <Navbar />
         </Grid>
-        <Grid item md={9} sm={9} xs={12} sx={{ height: '100vh', overflowY: 'scroll', padding: " 10px 30px" }}>
-            <HomeSection />
-            <Showcase />
-            <Services/>  
-            <Designers />
+        <Grid
+          item
+          md={9}
+          sm={9}
+          xs={12}
+          sx={{ height: "100vh", overflowY: "scroll", padding: " 10px 30px" }}
+        >
+          <HomeSection />
+          <Showcase />
+          <Services />
+          <Designers />
+          <Contact />
+        <FooterContent />
         </Grid>
-
       </Grid>
+
+
     </Box>
-  )
+  );
 }
